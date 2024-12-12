@@ -27,7 +27,7 @@ function findOneAndUpdate(id, content) {
 }
 
 function findPostsByUserId(userId) {
-  return PostModel.find({user: userId}).exec();
+  return PostModel.find({user: userId}).sort({createdAt:-1}).exec();
 }
 
 module.exports = {
