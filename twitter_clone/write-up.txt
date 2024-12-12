@@ -1,0 +1,11 @@
+What were some challenges you faced while making this app?
+Writing RESTful APIs was challenging as it required careful endpoint design, implementing authentication and authorization, and ensuring error handling. Debugging data flow between the client and server, along with testing API functionality, added complexity.
+
+Given more time, what additional features, functional or design changes would you make
+I will add follow, like features where users can follow each other and like each other posts.
+
+What assumptions did you make while working on this assignment?
+I assumed responsive design focused on screens smaller than 480px and that users were familiar with common navigation patterns. Additionally, I presumed users would primarily access the app on modern browsers.
+
+How long did this assignment take to complete?
+20 hours.

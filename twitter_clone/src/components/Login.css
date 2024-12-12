@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  font-family: "Arial", sans-serif;
+}
+
+
+.login-form {
+  margin: 20px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.login-form-username {
+  background-color: white;
+}
+
+.login-form-password{
+  background-color: white;
+}
+
+/* Input field styling */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: white;
+}
+
+.input-field:focus {
+  border-color: #4c9aff;
+  outline: none;
+
+}
+
+/* Label styling */
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: black;
+  background-color: white;
+}
+
+.login-button {
+  background-color: #4c9aff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1.1em;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #357ac1;
+}
+
+.login-button:disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .login-form {
+    padding: 20px;
+    max-width: 80%;
+    div .input-field {
+      width: 80%;
+    }
+  }
+
+  .login-button {
+    padding: 10px;
+  }
+}
