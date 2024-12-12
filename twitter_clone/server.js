@@ -26,7 +26,7 @@ mongoose
 
 //middleware
 const corsOptions ={
-  origin: process.env.VITE_SERVER_URL,
+  origin: process.env.VITE_CLIENT_URL,
   credentials:true,            //access-control-allow-credentials:true
   optionSuccessStatus:200
 }
